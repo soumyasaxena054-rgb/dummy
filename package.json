@@ -2,7 +2,9 @@
   "name": "inception",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start":"npx parcel index.html",  
+    "build":"npx parcel build index.html"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +16,8 @@
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },
-  "browserList":    [
+  "browserList": [
     "last 2 version"
   ]
 }
+
